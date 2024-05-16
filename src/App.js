@@ -1,11 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
-import ToDoList from './ToDoList';
+// import ToDoList from './ToDoList';
+import ThemeSwitch from './ThemeSwitch.jsx';
 
 function App() {
   return (
     <div className="App">
-     <ToDoList />
+     {/* <ToDoList /> */}
+     <ThemeSwitch />
     </div>
   );
 }

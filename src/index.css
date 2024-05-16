@@ -22,3 +22,13 @@ code {
 .todo-item {
   display: flex;
 }
+
+.theme {
+  height: 200px;
+  width: 500px;
+}
+
+.dark-theme {
+  background-color: black;
+  color: white;
+}
