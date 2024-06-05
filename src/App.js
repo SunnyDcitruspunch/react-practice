@@ -1,5 +1,6 @@
 import './App.css';
-import Pagination from './Pagination.tsx';
+// import Pagination from './Pagination.tsx';
+import SearchInput from './SearchInput.tsx';
 // import ToDoList from './ToDoList';
 // import ThemeSwitch from './ThemeSwitch.jsx';
 
@@ -8,7 +9,8 @@ function App() {
     <div className="App">
      {/* <ToDoList /> */}
      {/* <ThemeSwitch /> */}
-     <Pagination />
+     {/* <Pagination /> */}
+      <SearchInput />
     </div>
   );
 }
