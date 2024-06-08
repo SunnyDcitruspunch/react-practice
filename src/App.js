@@ -1,6 +1,6 @@
 import './App.css';
 // import Pagination from './Pagination.tsx';
-import SearchInput from './SearchInput.tsx';
+import ThemeSwitchFC from './ThemeSwitchFC.tsx';
 // import ToDoList from './ToDoList';
 // import ThemeSwitch from './ThemeSwitch.jsx';
 
@@ -10,7 +10,8 @@ function App() {
      {/* <ToDoList /> */}
      {/* <ThemeSwitch /> */}
      {/* <Pagination /> */}
-      <SearchInput />
+      {/* <SearchInput /> */}
+      <ThemeSwitchFC />
     </div>
   );
 }
