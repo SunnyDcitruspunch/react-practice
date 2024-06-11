@@ -1,5 +1,6 @@
 import './App.css';
-import DebouncedInput from './DebouncedInput.tsx';
+import Counter from './Counter/Counter.tsx';
+// import DebouncedInput from './DebouncedInput.tsx';
 // import Pagination from './Pagination.tsx';
 // import ThemeSwitchFC from './ThemeSwitchFC.tsx';
 // import ToDoList from './ToDoList';
@@ -15,7 +16,8 @@ function App() {
      {/* <Pagination /> */}
       {/* <SearchInput /> */}
       {/* <ThemeSwitchFC /> */}
-      <DebouncedInput />
+      {/* <DebouncedInput /> */}
+      <Counter />
     </div>
   );
 }
