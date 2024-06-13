@@ -1,6 +1,6 @@
 import './App.css';
-import Counter from './Counter/Counter.tsx';
-import PhoneInput from './Stripe/PhoneInput.tsx';
+// import PhoneInput from './Stripe/PhoneInput.tsx';
+import StopWatch  from './StopWatch.tsx';
 // import DebouncedInput from './DebouncedInput.tsx';
 // import Pagination from './Pagination.tsx';
 // import ThemeSwitchFC from './ThemeSwitchFC.tsx';
@@ -12,6 +12,7 @@ import PhoneInput from './Stripe/PhoneInput.tsx';
 function App() {
   return (
     <div className="App">
+      <StopWatch />
      {/* <ToDoList /> */}
      {/* <ThemeSwitch /> */}
      {/* <Pagination /> */}
@@ -19,7 +20,7 @@ function App() {
       {/* <ThemeSwitchFC /> */}
       {/* <DebouncedInput /> */}
       {/* <Counter /> */}
-      <PhoneInput />
+      {/* <PhoneInput /> */}
     </div>
   );
 }
