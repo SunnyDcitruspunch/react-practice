@@ -1,6 +1,7 @@
 import './App.css';
+import List from './List/List.tsx';
 // import PhoneInput from './Stripe/PhoneInput.tsx';
-import StopWatch  from './StopWatch.tsx';
+// import StopWatch  from './StopWatch.tsx';
 // import DebouncedInput from './DebouncedInput.tsx';
 // import Pagination from './Pagination.tsx';
 // import ThemeSwitchFC from './ThemeSwitchFC.tsx';
@@ -12,7 +13,8 @@ import StopWatch  from './StopWatch.tsx';
 function App() {
   return (
     <div className="App">
-      <StopWatch />
+      <List />
+      {/* <StopWatch /> */}
      {/* <ToDoList /> */}
      {/* <ThemeSwitch /> */}
      {/* <Pagination /> */}
