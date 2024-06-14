@@ -84,7 +84,7 @@ function List() {
       <ul>
         {
           list.map((li) => {
-            return <li key={li.id}>{li.title}</li>
+            return <li tabIndex={0} key={li.id}>{li.title}</li>
           })
         }
       </ul>
